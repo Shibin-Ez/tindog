@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h2{
+    font-weight:bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+/* title section */
+#title{
+    text-align: left;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.container-fluid{
+    padding: 0% 15% 13%;
+}
+.title-h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+.title-img{
+    width: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* feature section */
+#features{
+    background-color: #fff;
+    position: relative;
+}
+.features-align{
+    padding: 10% 0%;
+}
+.feature-col{
+    padding: 5% 4%;
+}
+.feature-icon{
+    font-size: 3.5rem;
+    padding-bottom: 5%;
+    color: #ef8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    height: 500px;
+    padding: 7% 15%;
+    margin-bottom: 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+ #pricing{
+    padding: 100px;
+}
+.pricing-row{
+    padding-top: 3%;
+}
+.card{
+    margin: 3% 15px;
+}
+
+/* Call to action section */
+#cta{
+    background-color: #ff4c68;
+    padding-top: 150px;
+}
+.cta-h3{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+}
+.padding-100px{
+    padding-bottom:100px;
+}
+
+/* Footer Section */
+#footer{
+    padding: 100px 0px;
+}
+.spacing{
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .remove-padding{
+        padding-bottom: 700px;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 400px;
+    }
+}
